@@ -1,40 +1,21 @@
+📌 Cosas importantes:
 
----
+# Comentario en una línea
 
-### 🐍 PYTHON - CAPÍTULO 1: INTRODUCCIÓN AL LENGUAJE
+"""
+Comentario
+en varias líneas
+"""
 
-#### 💡 ¿Qué es Python?
+# Tu primer programa
+print("Hola mundo")  # imprime texto en pantalla
 
-Un lenguaje de programación de alto nivel, creado para que escribir código sea *cómodo y entendible* (sí, como si fuera casi español).
-Ideal para aprender a programar desde cero, pero también usado en inteligencia artificial, web, automatización y más.
+🛠 Cosas que necesitás saber:
 
----
+print() se usa para mostrar algo por consola.
 
-#### 🧠 Cosas clave del capítulo:
+Los strings (textos) van entre comillas dobles o simples.
 
-1. **Python es interpretado**
-   No se compila, se ejecuta línea por línea.
-   ➤ Ventaja: fácil para testear y aprender
-   ➤ Desventaja: más lento que uno compilado como C++
+Ej: "Hola" o 'Hola'
 
-2. **Sintaxis limpia**
-   Nada de llaves `{}` ni punto y coma `;` al final.
-   El orden y la indentación (espacios/tabulaciones) *importan mucho*.
-
-3. **Usás un intérprete (consola) o un editor**
-   Podés empezar directamente desde la terminal con:
-
-   ```bash
-   python
-   ```
-
-   o escribir en un archivo `.py` y correrlo con:
-
-   ```bash
-   python archivo.py
-   ```
-
-4. **Hello World (clásico inicio)**
-
-   ```python
-   print("Hola mundo"
+Los comentarios no se ejecutan. Son para explicar tu código.
